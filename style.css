@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url("Maratona\ Explorer\ \ -\ 1080x2560.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: rgb(35, 25, 36);
+    border-radius: 15px;
+    margin-top: 8%;
+   padding-bottom: 2%;
+    width: 80%; /* flexivel */
+    max-width: 400px; /* o máximo é 400 */
+    margin-left: auto;
+    margin-right: auto;
+    /* As margens direita e esquerda sempre 
+    vao ser automaticas  para deixar 
+    tudo centralizado, pode utulizar tbm o: 
+    margin-inline: auto; faz os dois lados*/
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+p {
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+
+
+button, input {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    transition: filter .3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+
+
+
+
+/* display block, cada elemento ocupa uma linha */
+/* display inline, os elementos ocupam a msm linha */
