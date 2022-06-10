@@ -64,8 +64,16 @@ button:hover{
     cursor: pointer;
 }
 
+#resposta {
+    margin-top: 30px;
+}
 
-
+#resposta div {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
 
 
 /* display block, cada elemento ocupa uma linha */
